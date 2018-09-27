@@ -1,7 +1,7 @@
 URxvt.scrollBar: false
 URxvt.saveLines: 1000000
-URxvt.transparent: true
-URxvt.shading: 30
+URxvt.transparent: false
+URxvt.shading: 50
 URxvt.cursorBlink: 1
 URxvt.cursorUnderline: 1
 URxvt.font: 7x13
@@ -15,27 +15,47 @@ URxvt.font: 7x13
 
 !!!!!!COLORTHEMES !!!!!!
 
-! Revolution
-*.foreground:   #f2f68d
-*.background:   #000000
+! Dracula Xresources palette
+*.foreground: #F8F8F2
+*.background: #282A36
+*.color0:     #000000
+*.color8:     #4D4D4D
+*.color1:     #FF5555
+*.color9:     #FF6E67
+*.color2:     #50FA7B
+*.color10:    #5AF78E
+*.color3:     #F1FA8C
+*.color11:    #F4F99D
+*.color4:     #BD93F9
+*.color12:    #CAA9FA
+*.color5:     #FF79C6
+*.color13:    #FF92D0
+*.color6:     #8BE9FD
+*.color14:    #9AEDFE
+*.color7:     #BFBFBF
+*.color15:    #E6E6E6
+
+!! Revolution
+!*.foreground:   #f2f68d
+!*.background:   #000000
 !*.background:   #444b66
-*.cursorColor:  #ff0000
-*.color0:       #bdae88
-*.color8:       #4b4b4b
-*.color1:       #9e6b99
-*.color9:       #8B4443
-*.color2:       #829095
-*.color10:      #536c70
-*.color3:       #495254
-*.color11:      #cfcfcf
-*.color4:       #bd9800
-*.color12:      #a33202
-*.color5:       #536991
-*.color13:      #ff0d0d
-*.color6:       #b5b5b5
-*.color14:      #f9f9ff
-*.color7:       #965b3f
-*.color15:      #fafafa
+!*.cursorColor:  #ff0000
+!*.color0:       #bdae88
+!*.color8:       #4b4b4b
+!*.color1:       #9e6b99
+!*.color9:       #8B4443
+!*.color2:       #829095
+!*.color10:      #536c70
+!*.color3:       #495254
+!*.color11:      #cfcfcf
+!*.color4:       #bd9800
+!*.color12:      #a33202
+!*.color5:       #536991
+!*.color13:      #ff0d0d
+!*.color6:       #b5b5b5
+!*.color14:      #f9f9ff
+!*.color7:       #965b3f
+!*.color15:      #fafafa
 
 !! Fulminated - Sunburn
 !URxvt.cursorColor:   #ff0000

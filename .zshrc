@@ -6,11 +6,14 @@ export ZSH=$HOME/.oh-my-zsh
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
 #export ZSH_THEME="" #
-export ZSH_THEME="nanotech" #
+export ZSH_THEME="lambda-gitster"
+#export ZSH_THEME="lambda-mod"
+#export ZSH_THEME="norm"
+#export ZSH_THEME="nanotech"
 #export ZSH_THEME="obraun"
-#export ZSH_THEME="dallas" #
-#export ZSH_THEME="aussiegeek" #
-#export ZSH_THEME="philips" #
+#export ZSH_THEME="dallas"
+#export ZSH_THEME="aussiegeek"
+#export ZSH_THEME="philips"
 #export ZSH_THEME="kolo"
 #export ZSH_THEME="half-life"
 #export ZSH_THEME="gallois" # really great. has all the things and looks good.
@@ -75,3 +78,9 @@ alias gcl='git clone'
 alias gta='git tag -a -m'
 alias gf='git reflog'
 
+
+# -------------------------------------------------------------------
+# shell
+# -------------------------------------------------------------------
+alias sl='ls'
+alias dc='cd'

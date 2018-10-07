@@ -39,8 +39,13 @@ set number
 
 "colorscheme dante
 
-highlight Overlength ctermbg=green ctermfg=white
-match Overlength /\%81v.\+/
+" vertical bar @ 80 chars.
+highlight ColorColumn ctermbg=gray
+set colorcolumn=80
+
+" highlight after 80 chars.
+"highlight Overlength ctermbg=black ctermfg=white
+"match Overlength /\%81v.\+/
 
 syntax on
 

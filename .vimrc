@@ -8,7 +8,6 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'tpope/vim-fugitive'
-Plugin 'git://git.wincent.com/command-t.git'
 Plugin 'Valloric/YouCompleteMe'
 Plugin 'rhysd/vim-clang-format'
 Plugin 'vim-airline/vim-airline'
@@ -16,11 +15,9 @@ Plugin 'davidhalter/jedi-vim'
 Plugin 'itchyny/lightline.vim'
 Plugin 'easymotion/vim-easymotion'
 Plugin 'mhinz/vim-signify'
-Plugin 'racer-rust/vim-racer'
-Plugin 'rust-lang/rust.vim'
 Plugin 'flazz/vim-colorschemes'
 Plugin 'scrooloose/nerdcommenter'
-Plugin 'udalov/kotlin-vim'
+Plugin 'junegunn/fzf'
 call vundle#end()
 
 let mapleader=','
@@ -32,12 +29,12 @@ map J :bprev<cr>
 map L :bnext<cr>
 map E :quitall<cr>
 map T :Gblame<cr>
-map <C-f> :CommandT<cr>
+map <C-f> :FZF<cr>
 
 set t_Co=16
 set number
 
-"colorscheme dante
+colorscheme dante
 
 " vertical bar @ 80 chars.
 highlight ColorColumn ctermbg=gray

@@ -9,11 +9,11 @@ export ZSH=$HOME/.oh-my-zsh
 export ZSH_THEME="lambda-gitster"
 #export ZSH_THEME="lambda-mod"
 #export ZSH_THEME="norm"
-#export ZSH_THEME="nanotech"
+#export ZSH_THEME="nanotech" #
 #export ZSH_THEME="obraun"
-#export ZSH_THEME="dallas"
-#export ZSH_THEME="aussiegeek"
-#export ZSH_THEME="philips"
+#export ZSH_THEME="dallas" #
+#export ZSH_THEME="aussiegeek" #
+#export ZSH_THEME="philips" #
 #export ZSH_THEME="kolo"
 #export ZSH_THEME="half-life"
 #export ZSH_THEME="gallois" # really great. has all the things and looks good.
@@ -84,3 +84,12 @@ alias gf='git reflog'
 # -------------------------------------------------------------------
 alias sl='ls'
 alias dc='cd'
+
+# -------------------------------------------------------------------
+# gruvbox
+# -------------------------------------------------------------------
+source "$HOME/.vim/bundle/gruvbox/gruvbox_256palette.sh"
+
+#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
+export SDKMAN_DIR="/home/tyler/.sdkman"
+[[ -s "/home/tyler/.sdkman/bin/sdkman-init.sh" ]] && source "/home/tyler/.sdkman/bin/sdkman-init.sh"

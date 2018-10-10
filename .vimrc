@@ -13,15 +13,15 @@ Plugin 'rhysd/vim-clang-format'
 Plugin 'vim-airline/vim-airline'
 Plugin 'davidhalter/jedi-vim'
 Plugin 'itchyny/lightline.vim'
-Plugin 'easymotion/vim-easymotion'
+Plugin 'tconnel/vim-easymotion'
 Plugin 'mhinz/vim-signify'
 Plugin 'flazz/vim-colorschemes'
 Plugin 'scrooloose/nerdcommenter'
 Plugin 'junegunn/fzf'
+Plugin 'morhetz/gruvbox'
 call vundle#end()
 
 let mapleader=','
-
 map q :q<cr>
 map Q :quitall<cr>
 map W :w<cr>
@@ -34,7 +34,7 @@ map <C-f> :FZF<cr>
 set t_Co=16
 set number
 
-colorscheme dante
+"colorscheme Revolution
 
 " vertical bar @ 80 chars.
 highlight ColorColumn ctermbg=gray
